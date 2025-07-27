@@ -1,7 +1,7 @@
 ---
 title: "Quantum Consciousness: The Observer Effect in Philosophy"
 description: "Exploring how the act of observation fundamentally changes reality, and what this means for our understanding of consciousness and existence."
-pubDate: "2024-01-15"
+publishDate: "Jan 15 2024"
 tags: ["consciousness", "quantum-physics", "metaphysics", "epistemology"]
 heroImage: "/post-1.jpg"
 ---
