@@ -1,91 +1,73 @@
-# Dante - Astro & Tailwind CSS Theme by justgoodui.com
+# Quantum Affect - Philosophical Contemplations
 
-Dante is a single-author blog and portfolio theme for Astro.js. Featuring a minimal, slick, responsive and content-focused design. For more Astro.js themes please check [justgoodui.com](https://justgoodui.com/).
+A contemplative and minimal philosophy blog exploring the intersection of quantum physics, consciousness, and philosophical inquiry. Built with Astro.js and Tailwind CSS.
 
-![Dante Astro.js Theme](public/dante-preview.jpg)
+## About
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JustGoodUI/dante-astro-theme)
+Quantum Affect is a space for deep philosophical reflection on consciousness, existence, and the nature of reality. Each essay is a meditation on the mysteries that lie at the intersection of mind, matter, and meaning.
 
-If you click this☝️ button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
+## Features
 
-## Theme Features:
+- **Minimal Design**: Clean, contemplative interface optimized for reading
+- **Philosophical Content**: Long-form essays on consciousness, metaphysics, and quantum philosophy
+- **Responsive**: Works beautifully on all devices
+- **Fast**: Built with Astro.js for optimal performance
+- **SEO Optimized**: Built-in sitemap and meta tags
 
-- ✅ Dark and light color mode
-- ✅ Hero section with bio
-- ✅ Portfolio collection
-- ✅ Pagination support
-- ✅ Post tags support
-- ✅ Subscription form
-- ✅ View transitions
-- ✅ Tailwind CSS
-- ✅ Mobile-first responsive layout
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+## Local Development
 
-## Template Integrations
-
-- @astrojs/tailwind - https://docs.astro.build/en/guides/integrations-guide/tailwind/
-- @astrojs/sitemap - https://docs.astro.build/en/guides/integrations-guide/sitemap/
-- @astrojs/mdx - https://docs.astro.build/en/guides/markdown-content/
-- @astrojs/rss - https://docs.astro.build/en/guides/rss/
-
-## Project Structure
-
-Inside of Dante Astro theme, you'll see the following folders and files:
-
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── data/
-│   ├── icons/
-│   ├── layouts/
-│   ├── pages/
-│   ├── styles/
-│   └── utils/
-├── astro.config.mjs
-├── package.json
-├── README.md
-└── tsconfig.json
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/quantum-affect-blog.git
+cd quantum-affect-blog
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+2. Install dependencies:
+```bash
+npm install
+```
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro (`.astro`) components.
+3. Start the development server:
+```bash
+npm run dev
+```
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+4. Open [http://localhost:4321](http://localhost:4321) in your browser.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Deployment to GitHub Pages
 
-## Astro.js Commands
+This site is configured for automatic deployment to GitHub Pages:
 
-All commands are run from the root of the project, from a terminal:
+1. **Push to GitHub**: The site automatically deploys when you push to the `main` branch
+2. **Enable GitHub Pages**: Go to your repository Settings > Pages and select "GitHub Actions" as the source
+3. **Custom Domain**: Update the `siteConfig.website` in `src/data/site-config.ts` with your domain
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Adding New Essays
 
-## Want to learn more about Astro.js?
+Create new markdown files in `src/content/blog/` with the following frontmatter:
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```markdown
+---
+title: "Your Essay Title"
+description: "Brief description of the essay"
+pubDate: "YYYY-MM-DD"
+tags: ["tag1", "tag2"]
+heroImage: "/image.jpg"
+---
 
-## Credits
+Your essay content here...
+```
 
-- Demo content generate with [Chat GPT](https://chat.openai.com/)
-- Images for demo content from [Unsplash](https://unsplash.com/)
+## Customization
 
-## Astro Themes by Just Good UI
-
-- [Ovidius](https://github.com/JustGoodUI/ovidius-astro-theme) is a free single author blog theme.
+- **Site Configuration**: Edit `src/data/site-config.ts` to update site metadata
+- **Styling**: Modify `src/styles/global.css` for custom styles
+- **Layout**: Customize components in `src/components/`
 
 ## License
 
-Licensed under the [GPL-3.0](https://github.com/JustGoodUI/dante-astro-theme/blob/main/LICENSE) license.
+This project is based on the Dante Astro theme by JustGoodUI.
+
+---
+
+*Quantum Affect - Where philosophy meets quantum reality.*
